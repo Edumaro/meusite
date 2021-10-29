@@ -1,0 +1,75 @@
+
+h1, h2, h3, h4, h5, h6 {
+    color: greenyellow;
+    width: 500px;
+    border: 2px;
+    text-align: center;
+  }
+  html {
+      font-size: 25px; font-family: 'Quicksand', sans-serif;
+      background-image: url(picolas.png);
+      background-size: 100vw 100vh;
+  }
+  li {
+      color:aqua;
+  }
+  #p2 {
+      color:blueviolet;
+  }
+  #buy {
+      color: red;
+  }
+  #Paragrafo1 {
+      color:yellow
+  }
+#table {
+    color:rgb(0, 255, 0)
+}
+#def {
+    color: darkorange;
+}
+
+body{
+  width: 600px;
+  margin: 0 auto;
+  background-color:white;
+  padding: 0 50px 100px 20px;
+}
+h1 {
+    margin: 0;
+    padding: 30px 0;
+    color: #7bff00;
+    text-shadow: 1px 1px 1px black;
+  }
+  img {
+      display: block;
+      margin: 0 auto;
+  }
+  video {
+      display: block;
+      margin: 0 auto;
+  }
+  #nig {
+      box-shadow: black;
+  }
+#f {
+    color: red;
+}
+#sicolas, #wo {
+  border: 5px solid black;
+
+}
+#jar {
+    border: 5px solid black;
+}
+/*utilizar o comando overflow
+overflow hidden: esconde o exesso
+overflow (x,y) scroll: cria uma barra de scroll no eixo escolhido ou em todos
+overflow auto: define automaticamente como se deve posicionar o scroll ou não
+
+utilizar hsl e hsla
+opacidade (entre 0 e 1)
+hoe (roda de cores em 360), saturation, lightness
+"a" mesmo que opacidade mas incluido no hsl
+
+*/
