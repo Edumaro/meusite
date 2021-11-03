@@ -1,5 +1,5 @@
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     color: greenyellow;
     width: 500px;
     border: 2px;
@@ -13,33 +13,32 @@ h1, h2, h3, h4, h5, h6 {
   li {
       color:aqua;
   }
-  #p2 {
+  .p2 {
       color:blueviolet;
   }
-  #buy {
+  .buy {
       color: red;
   }
-  #Paragrafo1 {
+  .Paragrafo1 {
       color:yellow
   }
-#table {
+.table {
     color:rgb(0, 255, 0)
 }
-#def {
+.def {
     color: darkorange;
 }
 
 body{
   width: 600px;
-  margin: 0 auto;
-  background-color:white;
   padding: 0 50px 100px 20px;
+  align-content: space-around   ;
 }
 h1 {
-    margin: 0;
-    padding: 30px 0;
-    color: #7bff00;
-    text-shadow: 1px 1px 1px black;
+    text-align: center;
+        color: white;
+        line-height: normal;
+        margin: 0;
   }
   img {
       display: block;
@@ -49,19 +48,22 @@ h1 {
       display: block;
       margin: 0 auto;
   }
-  #nig {
-      box-shadow: black;
-  }
-#f {
+.f {
     color: red;
 }
-#sicolas, #wo {
+.sicolas, #wo {
   border: 5px solid black;
 
 }
-#jar {
+.jar {
     border: 5px solid black;
 }
+header, nav{
+background: black;
+height: 100px;
+    
+}
+
 /*utilizar o comando overflow
 overflow hidden: esconde o exesso
 overflow (x,y) scroll: cria uma barra de scroll no eixo escolhido ou em todos

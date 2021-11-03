@@ -1,3 +1,4 @@
+
 /*muda uma variavel
 const bruh = document.querySelector('h2');
 bruh.textContent = 'suave kkkkkk'
@@ -7,7 +8,7 @@ document.querySelector('html').onclick = function() {
     alert('JOHN CHINA!');
 }
 */
-let xina = document.querySelector('img');
+let xina = document.querySelector('.bet');
 
 xina.onclick = function() {
     let meuSrc = xina.getAttribute('src');
@@ -17,7 +18,7 @@ xina.onclick = function() {
       xina.setAttribute ('src','xina.png');
     }
 }
-let meuBotao = document.querySelector('#chus');
+let meuBotao = document.querySelector('.chus');
 let meuCabecalho = document.querySelector('h1');
 function defineNomeUsuario() {
     let meuNome = prompt('Insira seu código de série:');
@@ -36,39 +37,11 @@ function defineNomeUsuario() {
   }
   meuBotao.onclick = function() { defineNomeUsuario();
   }
-  let Jarvis = document.querySelector('#jar');
-  
+  let Jarvis = document.querySelector('.jar');
+
   function bruhMomento(e)  {
     console.log(e)
     console.log(Jarvis.getAttributeNames())
     Jarvis.removeAttribute("style")
   }
-  var select = document.querySelector('select');
-var html = document.querySelector('.output');
-
-select.onchange = function() {
-  var choice = select.value;
-
-  switch(choice) {
-    case 'Escuro':
-      update('black','white');
-      break;
-    case 'Cego':
-      update('white','black');
-      break;
-    case 'Roxo':
-      update('purple','white');
-      break;
-    case 'A m a r e l o':
-      update('yellow','darkgray');
-      break;
-    case 'qqkkkk':
-      update('lime','purple');
-      break;
-  }
-}
-
-function update(bgColor, textColor) {
-  html.style.backgroundColor = bgColor;
-  html.style.color = textColor;
-}
+  var select = document.querySelector('.select');
