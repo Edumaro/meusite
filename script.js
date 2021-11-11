@@ -12,10 +12,10 @@ let xina = document.querySelector('.bet');
 
 xina.onclick = function() {
     let meuSrc = xina.getAttribute('src');
-    if(meuSrc === 'xina.png') {
-      xina.setAttribute ('src','picolas.png');
+    if(meuSrc === 'images/xina.png') {
+      xina.setAttribute ('src','images/picolas.png');
     } else {
-      xina.setAttribute ('src','xina.png');
+      xina.setAttribute ('src','images/xina.png');
     }
 }
 let meuBotao = document.querySelector('.chus');
@@ -45,3 +45,23 @@ function defineNomeUsuario() {
     Jarvis.removeAttribute("style")
   }
   var select = document.querySelector('.select');
+  let radar = document.querySelector('.radar');
+
+  function funnyNot() {
+    radar.removeAttribute("style")
+  }
+  let contratad = document.querySelector('.contratado')
+  function contratado() {
+    contratad.removeAttribute("style")
+  }
+  let blocked = document.querySelector('.blocked')
+   function banido(){
+     blocked.removeAttribute("style")
+   }
+   let button = document.querySelector('.banido')
+
+   function unhidden() {
+     button.removeAttribute("hidden")
+   }
+
+  

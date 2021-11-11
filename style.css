@@ -7,7 +7,7 @@ h2, h3, h4, h5, h6 {
   }
   html {
       font-size: 25px; font-family: 'Quicksand', sans-serif;
-      background-image: url(picolas.png);
+      background-image: url(images/picolas.png);
       background-size: 100vw 100vh;
   }
   li {
@@ -32,7 +32,7 @@ h2, h3, h4, h5, h6 {
 body{
   width: 600px;
   padding: 0 50px 100px 20px;
-  align-content: space-around   ;
+  align-content: space-around;
 }
 h1 {
     text-align: center;
@@ -51,18 +51,24 @@ h1 {
 .f {
     color: red;
 }
-.sicolas, #wo {
+.sicolas, .wo {
   border: 5px solid black;
 
 }
 .jar {
     border: 5px solid black;
 }
-header, nav{
+nav{
 background: black;
-height: 100px;
-    
+height: fit-content;
+width: fit-content;
 }
+header{
+    background: orange;
+    height: fit-content;
+    width: fit-content  ;
+}
+
 
 /*utilizar o comando overflow
 overflow hidden: esconde o exesso
